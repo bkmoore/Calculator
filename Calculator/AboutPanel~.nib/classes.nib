@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                clear = id; 
+                clearAll = id; 
+                decimalKey = id; 
+                doUnaryMinus = id; 
+                enterDigit = id; 
+                enterOP = id; 
+                setRadix = id; 
+                showAboutPanel = id; 
+            }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {aboutPanel = id; radixPopUp = id; readout = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

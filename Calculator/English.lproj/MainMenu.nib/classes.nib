@@ -1,0 +1,31 @@
+{
+    IBClasses = (
+        {CLASS = CalcWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            ACTIONS = {
+                clear = id; 
+                clearAll = id; 
+                decimalKey = id; 
+                doUnaryMinus = id; 
+                enterDigit = id; 
+                enterOP = id; 
+                setRadix = id; 
+                showAboutPanel = id; 
+            }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutPanel = id; 
+                decimalKey = id; 
+                keyPad = id; 
+                radixPopUp = id; 
+                readout = id; 
+                unaryMinusKey = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ReadoutView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}
